@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="container">
+    <div class="searchBar">
+    
+        <form >
+            <label for="nameSong">Nombre de la cancion</label>
+            <input type="text"  placeholder="ej:Enter Sandman" [(ngModel)]='songIn' [ngModelOptions]="{standalone: true}"/>
+            <label for="artistName">Artista o grupo</label>
+            <input type="text" placeholder="ej:Metallica" [(ngModel)]='artistIn' [ngModelOptions]="{standalone: true}"/>
+            <button class="searchBtn" (click)='seeDates()'>Buscar</button>
+        </form>
+    </div>
+    <div class="containerBody">
+        <div class="lirycArea">
+            <h1 #titleSong class="titleSong"></h1>
+            <h3 #authorSong class="authorSong"></h3>
+            <div #divLiryc class="divLiryc">
+                
+            </div>
+        </div>
+        <div class="infoArtist" >
+            <article #infoDiv  class="infoDiv"  >
+               
+            </article>
+           
+        </div>
+    </div>
+    
+</div>
+
+<app-footer></app-footer> 

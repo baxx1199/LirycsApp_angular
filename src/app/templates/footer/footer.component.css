@@ -1,0 +1,42 @@
+footer{
+    height: 200px;
+    display: flex;
+    background: rgb(30, 31, 43);
+    margin-top: 20px;
+    
+}
+.logo,.resourcesUse{
+    width: 40%;
+    margin: auto;
+
+    justify-content: space-between;
+    position: relative;
+
+}
+strong{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 32px;
+    color: rgb(230, 229, 227);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: 25%;
+}
+
+a{
+   text-decoration: none;
+   color: whitesmoke;
+   font-size: 22px;
+   
+}
+li{
+    list-style: none;
+    margin: 10px auto;
+}

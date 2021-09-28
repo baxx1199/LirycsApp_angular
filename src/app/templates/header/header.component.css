@@ -1,0 +1,11 @@
+header{
+    height: 100px;
+    background: linear-gradient(60deg, rgb(142, 202, 230), rgb(33, 158, 188));
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: rgb(2, 48, 71);
+}
