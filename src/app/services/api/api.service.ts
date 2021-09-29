@@ -3,7 +3,7 @@ import { IresponseLiryc }  from '../../models/responseLiryc.interface';
 import { HttpClient, HttpErrorResponse, HttpHeaders} from '@angular/common/http'
 import { Observable, observable, throwError } from 'rxjs'
 import { catchError } from 'rxjs/operators';
-import { IsearchArtist } from 'src/app/models/searchArtist.interface';
+
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,7 @@ import { IsearchArtist } from 'src/app/models/searchArtist.interface';
 export class ApiService {
   
   lirycUrl:string = "https://api.lyrics.ovh/v1/"
-  infoArtistUrl:string="http://theaudiodb.com/api/v1/json/1/search.php?s="
+  infoArtistUrl:string="https://theaudiodb.com/api/v1/json/1/search.php?s="
 
   
   constructor(private http:HttpClient) { }
